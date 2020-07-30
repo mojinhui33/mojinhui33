@@ -22,14 +22,15 @@
 
   <meta name="description" content="JavaScript参考文档万维网">
 <meta property="og:type" content="article">
-<meta property="og:title" content="mojinhui33">
+<meta property="og:title" content="JavaScript">
 <meta property="og:url" content="http://yoursite.com/2020/07/29/JavaScript/index.html">
 <meta property="og:site_name" content="mojinhui33">
 <meta property="og:description" content="JavaScript参考文档万维网">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-07-29T10:03:00.558Z">
-<meta property="article:modified_time" content="2020-07-29T10:03:00.559Z">
+<meta property="article:published_time" content="2020-07-29T11:26:55.908Z">
+<meta property="article:modified_time" content="2020-07-29T11:29:58.253Z">
 <meta property="article:author" content="Marlboro">
+<meta property="article:tag" content="Web">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://yoursite.com/2020/07/29/JavaScript/">
@@ -45,7 +46,7 @@
   };
 </script>
 
-  <title> | mojinhui33</title>
+  <title>JavaScript | mojinhui33</title>
   
 
 
@@ -179,7 +180,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          
+          JavaScript
         </h1>
 
         <div class="post-meta">
@@ -188,8 +189,18 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2020-07-29 18:03:00" itemprop="dateCreated datePublished" datetime="2020-07-29T18:03:00+08:00">2020-07-29</time>
+              <time title="创建时间：2020-07-29 19:26:55 / 修改时间：19:29:58" itemprop="dateCreated datePublished" datetime="2020-07-29T19:26:55+08:00">2020-07-29</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web/" itemprop="url" rel="index"><span itemprop="name">Web</span></a>
+                </span>
             </span>
 
           
@@ -227,13 +238,13 @@
 </ol>
 <h2 id="JS与HTML的结合方式（两种）"><a href="#JS与HTML的结合方式（两种）" class="headerlink" title="JS与HTML的结合方式（两种）"></a>JS与HTML的结合方式（两种）</h2><p><strong>第一种</strong></p>
 <p>使用一个标签</p>
-<p><code>&lt;script type = &quot;text/javascript&quot;&gt; js代码；&lt;/script&gt;</code></p>
+<p>&ensp;<code>&lt;script type = &quot;text/javascript&quot;&gt; js代码；&lt;/script&gt;</code></p>
 <p><strong>第二种</strong></p>
 <p>使用 script 标签，引入一个外部的 js 文件</p>
 <ul>
 <li>创建一个 js 文件，写 js 代码</li>
 </ul>
-<p><code>&lt;script type = &quot;text/javascript&quot; src=&quot;1.js&quot;&gt;&lt;/script&gt;</code></p>
+<p>&ensp;<code>&lt;script type = &quot;text/javascript&quot; src=&quot;1.js&quot;&gt;&lt;/script&gt;</code></p>
 <h2 id="JS的原始类型和声明变量"><a href="#JS的原始类型和声明变量" class="headerlink" title="JS的原始类型和声明变量"></a>JS的原始类型和声明变量</h2><ul>
 <li><p>定义变量都是用关键字 <strong>var</strong></p>
 </li>
@@ -251,33 +262,33 @@
 </ul>
 <h2 id="JS的语句"><a href="#JS的语句" class="headerlink" title="JS的语句"></a>JS的语句</h2><p>if判断、switch开关、for，do-while，while 循环与 java 如出一辙</p>
 <h2 id="JS的运算"><a href="#JS的运算" class="headerlink" title="JS的运算"></a>JS的运算</h2><ul>
-<li><p>js 里面不区分整数和小数</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var j &#x3D; 123;</span><br><span class="line">alert(j&#x2F;1000*1000);</span><br></pre></td></tr></table></figure>
-
-<p>  //得到的结果是 123</p>
+<li><p>js 里面不区分整数和小数  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var j &#x3D; 123;</span><br><span class="line">alert(j&#x2F;1000*1000);</span><br><span class="line">&#x2F;&#x2F;得到的结果是 123</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>字符串的相加和相减  </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">    var str &#x3D; &quot;456&quot;; </span><br><span class="line">    alert(str + 1);    </span><br><span class="line">    alert(str - 1);  </span><br><span class="line">&#96;&#96;&#96;  </span><br><span class="line">&#x2F;&#x2F;结果先为 4561，后为 4560  </span><br><span class="line">    提示 NaN ：表示不是一个数字</span><br><span class="line"></span><br><span class="line">- boolean 类型也可以操作  </span><br><span class="line">    true 值为 1，false 值为 0</span><br><span class="line"></span><br><span class="line">- &#x3D;&#x3D; 和 &#x3D;&#x3D;&#x3D; 区别  </span><br><span class="line">    &#x3D;&#x3D; 比较的是 值  </span><br><span class="line">    &#x3D;&#x3D;&#x3D; 比较的是 值 和 类型</span><br><span class="line"></span><br><span class="line">- 引入知识  </span><br><span class="line">直接向页面输出的语句（可以把内容显示在页面上）  </span><br><span class="line">&#96;document.write(&quot;aaa&quot;);&#96;  </span><br><span class="line">&#96;document.write(&quot;&lt;hr&#x2F;&gt;)&#96;  </span><br><span class="line">可以向页面输出变量、固定值和 html 代码</span><br><span class="line"></span><br><span class="line">- 例子：实现 99 乘法  </span><br></pre></td></tr></table></figure>
-<script type="text/javascript">
-document.write("<tableborder='1' bordercoloer='orange'>");
-//循环行9
-for(vari=1;i<=9;i++){
-  document.write("<tr>");
-  for(varj=1;j<=i;j++){
-      document.write("<td>");
-      document.write(j+"*"+i+"="+i*j);
-      document.write("<td>");
-  }     
-  document.write("</tr>");
-}
-  document.write("</table>");
-</script>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">- document.write 里面是**双引号**，如果设置标签的属性需要使用**单引号**  </span><br><span class="line">- document.write 可以输出变量，还可以输出 HTML 代码  </span><br><span class="line"></span><br><span class="line">## JS的数组  </span><br><span class="line">定义方式（三种）</span><br><span class="line">- 第一种</span><br><span class="line">    - var arr &#x3D; &#123;1,2,3&#125;;</span><br><span class="line">    - var arr &#x3D; &#123;1,&quot;4&quot;,true&#125;;</span><br><span class="line">- 第二种</span><br><span class="line">    - 使用内置对象Array对象</span><br><span class="line">    - var arr1 &#x3D; new Array(5);   &#x2F;&#x2F;定义一个数组，数组的长度是5  </span><br><span class="line">    arr1[0] &#x3D; &quot;1&quot;;</span><br><span class="line">- 第三种</span><br><span class="line">    - 使用内置对象Array</span><br><span class="line">    - var arr2 &#x3D; new Array(2,4,5);   &#x2F;&#x2F;定义一个数组，数组里面的元素是2,4,5</span><br><span class="line">    数组有个属性**length**，定义数组长度，和java里的一样</span><br><span class="line"></span><br><span class="line">## JS的函数</span><br><span class="line">定义函数有三种方式  </span><br><span class="line">- 第一种  </span><br><span class="line">用到一个关键字**function**</span><br></pre></td></tr></table></figure>
-<p>function  方法名（参数列表）｛<br>  方法体<br>  返回值（可有可无，根据实际需要）；<br>  ｝</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#96;&#96;&#96;</span><br><span class="line">&#x2F;&#x2F;使用第一种方式创建函数</span><br><span class="line">    Function test()&#123;</span><br><span class="line">        alert(&quot;qqqqqq&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">    &#x2F;&#x2F;调用方法</span><br><span class="line">    &#x2F;&#x2F;test();</span><br><span class="line">    &#x2F;&#x2F;定义一个有参数的方法，实现两个数的相加</span><br><span class="line">    function add1(a,b)&#123;</span><br><span class="line">        var sum &#x3D; a+b;</span><br><span class="line">        alert(sum);</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>第二种<br>匿名函数  </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var add &#x3D; function(参数列表)&#123;</span><br><span class="line">    方法体和返回值；</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">            var str &#x3D; &quot;456&quot;; </span><br><span class="line">            alert(str + 1);    </span><br><span class="line">            alert(str - 1);  </span><br><span class="line">            &#x2F;&#x2F;结果先为 4561，后为 4560  </span><br><span class="line">            提示 NaN ：表示不是一个数字</span><br><span class="line">&#96;&#96;&#96; </span><br><span class="line"></span><br><span class="line">- boolean 类型也可以操作  </span><br><span class="line">&amp;ensp;true 值为 1，false 值为 0</span><br><span class="line"></span><br><span class="line">- &#x3D;&#x3D; 和 &#x3D;&#x3D;&#x3D; 区别  </span><br><span class="line">&amp;ensp;&#x3D;&#x3D; 比较的是 值  </span><br><span class="line">&amp;ensp;&#x3D;&#x3D;&#x3D; 比较的是 值 和 类型</span><br><span class="line"></span><br><span class="line">- 引入知识  </span><br><span class="line">直接向页面输出的语句（可以把内容显示在页面上）  </span><br><span class="line">&amp;ensp;&#96;document.write(&quot;aaa&quot;);&#96;  </span><br><span class="line">&amp;ensp;&#96;document.write(&quot;&lt;hr&#x2F;&gt;)&#96;  </span><br><span class="line">可以向页面输出变量、固定值和 html 代码</span><br><span class="line"></span><br><span class="line">- 例子：实现 99 乘法  </span><br></pre></td></tr></table></figure>
+<pre><code>&lt;script type=&quot;text/javascript&quot;&gt;
+document.write(&quot;&lt;tableborder=&#39;1&#39; bordercoloer=&#39;orange&#39;&gt;&quot;);
+//循环行9
+for(vari=1;i&lt;=9;i++)&#123;
+    document.write(&quot;&lt;tr&gt;&quot;);
+    for(varj=1;j&lt;=i;j++)&#123;
+        document.write(&quot;&lt;td&gt;&quot;);
+        document.write(j+&quot;*&quot;+i+&quot;=&quot;+i*j);
+        document.write(&quot;&lt;td&gt;&quot;);
+        &#125;     
+        document.write(&quot;&lt;/tr&gt;&quot;);
+&#125;
+document.write(&quot;&lt;/table&gt;&quot;);</code></pre>
+<p></script></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">- document.write 里面是**双引号**，如果设置标签的属性需要使用**单引号**  </span><br><span class="line">- document.write 可以输出变量，还可以输出 HTML 代码  </span><br><span class="line"></span><br><span class="line">## JS的数组  </span><br><span class="line">定义方式（三种）</span><br><span class="line">- 第一种</span><br><span class="line">    - var arr &#x3D; &#123;1,2,3&#125;;</span><br><span class="line">    - var arr &#x3D; &#123;1,&quot;4&quot;,true&#125;;</span><br><span class="line">- 第二种</span><br><span class="line">    - 使用内置对象Array对象</span><br><span class="line">    - var arr1 &#x3D; new Array(5);   &#x2F;&#x2F;定义一个数组，数组的长度是5  </span><br><span class="line">&amp;ensp;arr1[0] &#x3D; &quot;1&quot;;</span><br><span class="line">- 第三种</span><br><span class="line">    - 使用内置对象Array</span><br><span class="line">    - var arr2 &#x3D; new Array(2,4,5);   &#x2F;&#x2F;定义一个数组，数组里面的元素是2,4,5</span><br><span class="line">&amp;ensp;数组有个属性**length**，定义数组长度，和java里的一样</span><br><span class="line"></span><br><span class="line">## JS的函数</span><br><span class="line">定义函数有三种方式  </span><br><span class="line">- 第一种  </span><br><span class="line">用到一个关键字**function**</span><br></pre></td></tr></table></figure>
+<p>function  方法名（参数列表）｛<br>    方法体<br>    返回值（可有可无，根据实际需要）；<br>    ｝</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#96;&#96;&#96;</span><br><span class="line">&#x2F;&#x2F;使用第一种方式创建函数</span><br><span class="line">    Function test()&#123;</span><br><span class="line">        alert(&quot;qqqqqq&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">    &#x2F;&#x2F;调用方法</span><br><span class="line">    &#x2F;&#x2F;test();</span><br><span class="line">    &#x2F;&#x2F;定义一个有参数的方法，实现两个数的相加</span><br><span class="line">    function add1(a,b)&#123;</span><br><span class="line">        var sum &#x3D; a+b;</span><br><span class="line">        alert(sum);</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>第二种<br>匿名函数  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var add &#x3D; function(参数列表)&#123;</span><br><span class="line">    方法体和返回值；</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;第二种方式创建函数</span><br><span class="line"> var add3 &#x3D; function(m,n)&#123;</span><br><span class="line">    alert(m+n);</span><br><span class="line">    &#125;</span><br><span class="line">&#x2F;&#x2F;调用方法</span><br><span class="line">    add3(5,6);</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;  </span><br><span class="line"></span><br><span class="line">- 第三种（用得少，了解）  </span><br><span class="line">使用到 js 里面的一个内置对象 Function</span><br><span class="line">&#96;var add &#x3D; new Function(&quot;参数列表&quot;,&quot;方法体和返回值&quot;)&#96;</span><br><span class="line"></span><br><span class="line">## JS的全局变量和局部变量</span><br><span class="line"></span><br><span class="line">- 全局变量</span><br><span class="line">    - 在script标签里面定义一个变量，这个变量在页面中js部分都可以使用</span><br><span class="line">    - 在方法外不适用，在方法内部使用，在另一个script标签使用</span><br><span class="line"></span><br><span class="line">- 局部变量</span><br><span class="line">    - 在方法内部定义一个变量，只能在方法内部使用</span><br><span class="line">    - 如果在方法的外部调用这个变量，提示出错</span><br><span class="line">    - 浏览器中按 **F12** 进行调试</span><br><span class="line"></span><br><span class="line">## script标签所放的位置</span><br><span class="line">- 建议把 script 标签放到 &#96;&lt;&#x2F;body&gt;&#96; 后面</span><br><span class="line">- 如果现在有这样一个需求：  </span><br><span class="line">&amp;ensp;在js里面需要获取到input里面的值，如果把script标签放到head里面会出现问题  </span><br><span class="line">&amp;ensp;html解析是从上到下解析的，script标签放到的是head里面，直接在里面取input里面的值，因为页面还没有解析到input那一行，这个时候就取不到</span><br><span class="line"></span><br><span class="line">## JS的重载</span><br><span class="line">- 和java一样，方法名相同，参数列表不通来实现</span><br><span class="line"></span><br><span class="line">## JS的String对象</span><br><span class="line">- 创建 string对象</span><br><span class="line">    - &#96;var str &#x3D; &quot;abc&quot;&#96;</span><br><span class="line">- 方法和属性（文档）</span><br><span class="line">    - 属性 length: 字符串的长度</span><br><span class="line">    - 方法  </span><br><span class="line">        1、与 html 相关的方法  </span><br><span class="line">        -         bold() : 加粗  </span><br><span class="line">        -     fontcolor() : 设置字符串的颜色  </span><br><span class="line">        -     fontsize() : 设置字体的大小  </span><br><span class="line">        -     link() : 将字符串显示成超链接  </span><br><span class="line">            -         str4.link(&quot;hello.html&quot;)  </span><br><span class="line">             -         sub() sup() : 下标和上标  </span><br><span class="line"> </span><br><span class="line">        2、与 java 相似的方法  </span><br></pre></td></tr></table></figure>
 <pre><code>      concat() : //连接字符串
       var str1 = &quot;abc&quot;;
@@ -289,18 +300,9 @@ for(vari=1;i<=9;i++){
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">replace() : 替换字符串</span><br><span class="line">传递两个参数：</span><br><span class="line">第一个参数是原始字符</span><br><span class="line">第二个是要替换的字符</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">substr()和substring()</span><br><span class="line">substr() : 从第几位开始，向后截取几个字符</span><br><span class="line">substring() : 从第几位开始，到第几位结束，但不包括最后一位</span><br></pre></td></tr></table></figure>
 <h2 id="JS的Array对象"><a href="#JS的Array对象" class="headerlink" title="JS的Array对象"></a>JS的Array对象</h2></li>
-<li><p>方法  </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">            concat   &#x2F;&#x2F;数组的连接</span><br><span class="line">            var arr11 &#x3D; &#123;1,2,3&#125;;</span><br><span class="line">            var arr12 &#x3D; &#123;4,5,6&#125;;</span><br><span class="line">            document.write(arr11.concat(arr12));</span><br><span class="line">&#96;&#96;&#96;  </span><br></pre></td></tr></table></figure>
-<pre><code>      join()   //根据指定的字符分割数组
-      var arr13 = new Array(3);
-      arr13[0] = &quot;a&quot;;
-      arr13[1] = &quot;b&quot;;
-      arr13[2] = &quot;c&quot;;
-
-      document.write(arr13);
-      document.write(&quot;&lt;br/&gt;&quot;);
-      document.write(arr13.join(&quot;-&quot;));</code></pre>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&#96;&#96;&#96;</span><br><span class="line">            push()   &#x2F;&#x2F;向数组末尾添加源，返回数组新的长度</span><br><span class="line">            &#x2F;&#x2F;push方法</span><br><span class="line">            var arr14 &#x3D; new Array(3);</span><br><span class="line">            arr14[0] &#x3D; &quot;tom&quot;;</span><br><span class="line">            arr14[1] &#x3D; &quot;lucy&quot;;</span><br><span class="line">            arr14[2] &#x3D; &quot;jack&quot;;</span><br><span class="line">            document.write(&quot;old array:&quot;+arr14);</span><br><span class="line">            document.write(&quot;&lt;br&#x2F;&gt;&quot;);</span><br><span class="line">            document.write(&quot;old length:&quot;+arr14.length);</span><br><span class="line">            document.write(&quot;&lt;br&#x2F;&gt;&quot;);</span><br><span class="line">            document.write(&quot;new length:&quot;+arr14.push(&quot;zhangsan&quot;));</span><br><span class="line">            document.write(&quot;&lt;br&#x2F;&gt;&quot;);</span><br><span class="line">            document.write(&quot;new array:&quot;+arr14);</span><br></pre></td></tr></table></figure>
+<li>方法  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">concat   &#x2F;&#x2F;数组的连接</span><br><span class="line">var arr11 &#x3D; &#123;1,2,3&#125;;</span><br><span class="line">var arr12 &#x3D; &#123;4,5,6&#125;;</span><br><span class="line">document.write(arr11.concat(arr12));</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">join()   &#x2F;&#x2F;根据指定的字符分割数组</span><br><span class="line">var arr13 &#x3D; new Array(3);</span><br><span class="line">arr13[0] &#x3D; &quot;a&quot;;</span><br><span class="line">arr13[1] &#x3D; &quot;b&quot;;</span><br><span class="line">arr13[2] &#x3D; &quot;c&quot;;</span><br><span class="line">        </span><br><span class="line">document.write(arr13);</span><br><span class="line">document.write(&quot;&lt;br&#x2F;&gt;&quot;);</span><br><span class="line">document.write(arr13.join(&quot;-&quot;));</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">push()   &#x2F;&#x2F;向数组末尾添加源，返回数组新的长度</span><br><span class="line">&#x2F;&#x2F;push方法</span><br><span class="line">var arr14 &#x3D; new Array(3);</span><br><span class="line">arr14[0] &#x3D; &quot;tom&quot;;</span><br><span class="line">arr14[1] &#x3D; &quot;lucy&quot;;</span><br><span class="line">arr14[2] &#x3D; &quot;jack&quot;;</span><br><span class="line">document.write(&quot;old array:&quot;+arr14);</span><br><span class="line">document.write(&quot;&lt;br&#x2F;&gt;&quot;);</span><br><span class="line">document.write(&quot;old length:&quot;+arr14.length);</span><br><span class="line">document.write(&quot;&lt;br&#x2F;&gt;&quot;);</span><br><span class="line">document.write(&quot;new length:&quot;+arr14.push(&quot;zhangsan&quot;));</span><br><span class="line">document.write(&quot;&lt;br&#x2F;&gt;&quot;);</span><br><span class="line">document.write(&quot;new array:&quot;+arr14);</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">push()   &#x2F;&#x2F;添加的是元素，如果将数组加入进去，会把数组里面的所有值当成一个元素放入</span><br><span class="line">var arr15&#x3D;&#123;&quot;aaa&quot;,&quot;bbb&quot;,&quot;ccc&quot;&#125;;</span><br><span class="line">var arr16 &#x3D; &#123;&quot;www&quot;,&quot;qqq&quot;&#125;;</span><br><span class="line">document.write(&quot;old array:&quot;+arr15);</span><br><span class="line">document.write(&quot;&lt;br&#x2F;&gt;&quot;);</span><br><span class="line">document.write(&quot;old length:&quot;+arr15.length);</span><br><span class="line">document.write(&quot;&lt;br&#x2F;&gt;&quot;);</span><br><span class="line">document.write(&quot;new length:&quot; +arr15.push(arr16);</span><br><span class="line">document.write(&quot;&lt;br&#x2F;&gt;&quot;);</span><br><span class="line">document.write(&quot;new array:&quot;+arr15);</span><br><span class="line">for(var i&#x3D;0;9&lt;arr15.length;i++)&#123;</span><br><span class="line">          alert(arr15[i]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">pop()   &#x2F;&#x2F;表示删除最后一个元素，返回删除的那个元素</span><br><span class="line">var arr17 &#x3D; [&quot;zhangsan&quot;,&quot;lisi&quot;,&quot;wangwu&quot;,&quot;zhaoliu&quot;];</span><br><span class="line">document.write(&quot;old array:&quot;+arr17);</span><br><span class="line">document.write(&quot;&lt;br&#x2F;&gt;&quot;);</span><br><span class="line">document.write(return:&quot;+arr17.pop());</span><br><span class="line">document.write(&quot;&lt;br&#x2F;&gt;&quot;);</span><br><span class="line">document.write(&quot;new array:&quot;+arr17);</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reverse();   &#x2F;&#x2F;颠倒数组中的元素的顺序</span><br></pre></td></tr></table></figure>
@@ -316,7 +318,186 @@ for(vari=1;i<=9;i++){
 
 </li>
 </ul>
-<h2 id="JS的Math对象"><a href="#JS的Math对象" class="headerlink" title="JS的Math对象"></a>JS的Math对象</h2>
+<h2 id="JS的Math对象"><a href="#JS的Math对象" class="headerlink" title="JS的Math对象"></a>JS的Math对象</h2><pre><code>        • 数学的运算
+        • 里面的都是静态方法，使用可以直接使用Math.方法（）
+        •  ceil(x):向上舍入
+        •  floor(x):向下舍入
+        •  round(x):四舍五入
+        •  random():得到随机数（伪随机数）
+            得到0-9的随机数
+        Math.randow()*10
+        Math.floor(Math.random()*10);</code></pre>
+<h2 id="JS的全局函数"><a href="#JS的全局函数" class="headerlink" title="JS的全局函数"></a>JS的全局函数</h2><pre><code>        • 不属于任何一个对象，直接写名称使用
+        • Eval() : 执行js代码（如果自负产是一个js代码，使用方法直接执行）
+        •  var str = &quot;alert(&#39;1234&#39;);
+            //alert(str);
+            eval(str);
+        •  encodeURI() : 对字符进行编码
+        • 比如汉字，就换转换为一群特殊码：%e6%B5
+        •  decondeURI()：对字符进行解码
+            encodeURIComponent()和decodeURIComponent()
+        •  isNaN():判断当前字符串是否是数字（no a numble）
+            var str2 = &quot;aaaa&quot;;
+            alert(isNaN(str2));
+            如果是数字，返回false
+            如果不是数字，返回true
+        • parseInt():类型转换
+            var str3 = &quot;123&quot;;
+            document.write(parseInt(str3)+1);</code></pre>
+<h2 id="DOM"><a href="#DOM" class="headerlink" title="DOM"></a>DOM</h2><ul>
+<li>概念：Document Object Model文档对象模型</li>
+<li>将标记语言文档的各个组成部分，封装为对象。可以使用这些对象，对标记语言文档进行CRUD的动态操作</li>
+</ul>
+<ul>
+<li>W3C DOM 标准被分为3个不同的部分：<ul>
+<li>核心 DOM - 针对任何结构化文档的标准模型<br>&ensp;            Document : 文档对象  <pre><code>      1. 创建（获取）：在html dom模型中可以使用window对象来获取  </code></pre>
+&ensp;                    window.document<br>&ensp;                    document  <pre><code>      2. 方法 :    </code></pre>
+&ensp;获取Element对象 :<br>&ensp;getEleentById() ：根据id属性值来获取元素对象。id属性一般唯一<br>&ensp;getElementsByTagName() : 根据元素名称获取元素对象们。返回值是一个数组<br>&ensp;getElementsByClassName() : 根据class属性值获取元素对象们。返回值是一个数组</li>
+<li>element : 元素对象  <ol>
+<li>获取、创建 : 通过document来获取和创建</li>
+<li>方法 :<br>&ensp;removeAttribute(): 删除属性<br>&ensp;setAttribute() : 设置属性<br>&ensp;attribute : 属性对象<br>&ensp;text : 文本对象<br>&ensp;comment : 注释对象<br>&ensp;node : 节点对象，其他五个对象的父对象<ul>
+<li>特点：所有dom对象都可以被认为是一个节点</li>
+<li>方法：<br>&ensp;CRUD dom树 :<br>&ensp;&ensp;appendChild() : 向节点的子节点列表的结尾添加新的节点<br>&ensp;&ensp;removeChild() : 删除（并返回）当前节点的指定子节点<br>&ensp;&ensp;replaceChild() : 用新节点替换一个子节点</li>
+<li>属性：<br>&ensp;parentNode 返回节点的父节点  </li>
+</ul>
+</li>
+</ol>
+</li>
+<li>XML DOM - 针对 XML 文档的标准模型</li>
+<li>HTML DOM - 针对 HTML 文档的标准模型</li>
+</ul>
+</li>
+<li>功能：将控制html文档的内容</li>
+<li>获取页面标签（元素）对象：Element<ul>
+<li>document.getElementById(“id值”)       通过元素的id获取元素对象</li>
+</ul>
+</li>
+<li>操作Element对象<ul>
+<li>修改属性值<ul>
+<li>明确获取的对象是哪一个</li>
+<li>查看API文档，找其中有些属性可以设置</li>
+</ul>
+</li>
+<li>修改标签体内容：<ul>
+<li>属性：innerHTML</li>
+</ul>
+<ol>
+<li>获取元素对象</li>
+<li>使用innerHTML属性修改标签体内容</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="BOM"><a href="#BOM" class="headerlink" title="BOM"></a>BOM</h2><ul>
+<li>概念：Browser Object Model浏览器对象模型  </li>
+</ul>
+<p>*将浏览器的各个组成部分封装成对象  </p>
+<ul>
+<li><p>组成：</p>
+<ul>
+<li>Window：窗口对象</li>
+<li>Navigator：浏览器对象</li>
+<li>Screen：显示器屏幕对象</li>
+<li>History：历史记录对象</li>
+<li>Location：地址栏对象</li>
+</ul>
+</li>
+<li><p>window：窗口对象</p>
+<ol>
+<li>创建</li>
+<li>方法<ol>
+<li>与弹出框有关的方法<ul>
+<li>alert() 显示带有一段消息和一个确认按钮的警告框</li>
+<li>confirm() 显示带有一段消息以及确认按钮和取消按钮的对话框<ul>
+<li>如果用户点击确认按钮，则方法返回true</li>
+<li>如果用户点击取消按钮，则方法返回false</li>
+</ul>
+</li>
+<li>prompt() 显示可提示用户输入的对话框<ul>
+<li>返回值：获取用户输入的值  </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>与打开关闭有关的方法<ul>
+<li>close() 关闭浏览器窗口<ul>
+<li>谁调用，就关闭谁</li>
+</ul>
+</li>
+<li>open() 打开一个洗呢浏览器窗口</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>Location：地址栏对象</p>
+<ol>
+<li>创建（获取）：<ol>
+<li>window.history</li>
+<li>history</li>
+</ol>
+</li>
+<li>方法：<ol>
+<li>back（）   加载history列表中的前一个URL</li>
+<li>forward（）   加载history列表中的下一个URL</li>
+<li>go（参数）   加载history列表中的某个具体页面<ul>
+<li>参数：<ul>
+<li>正数：前进几个历史纪录</li>
+<li>负数：后退几个历史记录</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>属性：<ul>
+<li>Length    返回当前窗口历史列表中的URL数量</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><ul>
+<li>功能：某些组件被执行了某些操作后，触发某些代码的执行</li>
+<li>绑定事件<ul>
+<li>直接在html标签上，指定事件的属性，属性值就是js代码<ul>
+<li>事件：onclick—   单击事件</li>
+</ul>
+</li>
+<li>通过js获取元素对象，指定事件属性，设置一个函数</li>
+</ul>
+</li>
+<li>window：窗口对象<ol>
+<li>创建</li>
+<li>方法<ol>
+<li>与定时器有关的方式<ul>
+<li>setTimeout() 在指定的毫秒数后调用函数或计算表达式<ul>
+<li>参数：<ul>
+<li>js代码或者方法对象</li>
+<li>毫秒值</li>
+</ul>
+</li>
+<li>返回值：唯一标识，用于取消定时器</li>
+</ul>
+</li>
+<li>clearTimeout() 取消由 setTimeout()方法设置的 timeout.</li>
+<li>setInterval() 按照指定的周期（以毫秒计）来调用函数或计算表达式</li>
+<li>clearInterval() 取消 setInterval（） 设置的 timeout</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>特点<ul>
+<li>window对象不需要创建可以直接使用window。     Window.方法名（）；</li>
+<li>window引用可以省略。                                        方法名（）；</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+
     </div>
 
     
@@ -324,6 +505,9 @@ for(vari=1;i<=9;i++){
     
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Web/" rel="tag"># Web</a>
+          </div>
 
         
 
@@ -334,7 +518,10 @@ for(vari=1;i<=9;i++){
     <a href="/2020/07/29/hello-world/" rel="prev" title="Hello World">
       <i class="fa fa-chevron-left"></i> Hello World
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2020/07/30/Math/" rel="next" title="Math">
+      Math <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -393,7 +580,7 @@ for(vari=1;i<=9;i++){
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#JavaScript"><span class="nav-number">1.</span> <span class="nav-text">JavaScript</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">1.1.</span> <span class="nav-text">参考文档</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%89%B9%E7%82%B9"><span class="nav-number">1.2.</span> <span class="nav-text">特点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%84%E6%88%90%EF%BC%88%E4%B8%89%E4%B8%AA%E9%83%A8%E5%88%86%EF%BC%89"><span class="nav-number">1.3.</span> <span class="nav-text">组成（三个部分）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E4%B8%8EHTML%E7%9A%84%E7%BB%93%E5%90%88%E6%96%B9%E5%BC%8F%EF%BC%88%E4%B8%A4%E7%A7%8D%EF%BC%89"><span class="nav-number">1.4.</span> <span class="nav-text">JS与HTML的结合方式（两种）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E7%9A%84%E5%8E%9F%E5%A7%8B%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%A3%B0%E6%98%8E%E5%8F%98%E9%87%8F"><span class="nav-number">1.5.</span> <span class="nav-text">JS的原始类型和声明变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E7%9A%84%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.6.</span> <span class="nav-text">JS的语句</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E7%9A%84%E8%BF%90%E7%AE%97"><span class="nav-number">1.7.</span> <span class="nav-text">JS的运算</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E7%9A%84Array%E5%AF%B9%E8%B1%A1"><span class="nav-number">1.8.</span> <span class="nav-text">JS的Array对象</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E7%9A%84Date%E5%AF%B9%E8%B1%A1"><span class="nav-number">1.9.</span> <span class="nav-text">JS的Date对象</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E7%9A%84Math%E5%AF%B9%E8%B1%A1"><span class="nav-number">1.10.</span> <span class="nav-text">JS的Math对象</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#JavaScript"><span class="nav-number">1.</span> <span class="nav-text">JavaScript</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">1.1.</span> <span class="nav-text">参考文档</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%89%B9%E7%82%B9"><span class="nav-number">1.2.</span> <span class="nav-text">特点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%84%E6%88%90%EF%BC%88%E4%B8%89%E4%B8%AA%E9%83%A8%E5%88%86%EF%BC%89"><span class="nav-number">1.3.</span> <span class="nav-text">组成（三个部分）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E4%B8%8EHTML%E7%9A%84%E7%BB%93%E5%90%88%E6%96%B9%E5%BC%8F%EF%BC%88%E4%B8%A4%E7%A7%8D%EF%BC%89"><span class="nav-number">1.4.</span> <span class="nav-text">JS与HTML的结合方式（两种）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E7%9A%84%E5%8E%9F%E5%A7%8B%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%A3%B0%E6%98%8E%E5%8F%98%E9%87%8F"><span class="nav-number">1.5.</span> <span class="nav-text">JS的原始类型和声明变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E7%9A%84%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.6.</span> <span class="nav-text">JS的语句</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E7%9A%84%E8%BF%90%E7%AE%97"><span class="nav-number">1.7.</span> <span class="nav-text">JS的运算</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E7%9A%84Array%E5%AF%B9%E8%B1%A1"><span class="nav-number">1.8.</span> <span class="nav-text">JS的Array对象</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E7%9A%84Date%E5%AF%B9%E8%B1%A1"><span class="nav-number">1.9.</span> <span class="nav-text">JS的Date对象</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E7%9A%84Math%E5%AF%B9%E8%B1%A1"><span class="nav-number">1.10.</span> <span class="nav-text">JS的Math对象</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS%E7%9A%84%E5%85%A8%E5%B1%80%E5%87%BD%E6%95%B0"><span class="nav-number">1.11.</span> <span class="nav-text">JS的全局函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DOM"><span class="nav-number">1.12.</span> <span class="nav-text">DOM</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#BOM"><span class="nav-number">1.13.</span> <span class="nav-text">BOM</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8B%E4%BB%B6"><span class="nav-number">1.14.</span> <span class="nav-text">事件</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -409,9 +596,21 @@ for(vari=1;i<=9;i++){
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
